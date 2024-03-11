@@ -1,0 +1,81 @@
+body {
+  font-family: Helvetica;
+  font-size: 12px; /* Added "px" to specify the font size */
+  color: black;
+  background-image: url("background.jpg");
+  background-repeat: repeat-x;
+  line-height: 1.7; /* Corrected the syntax */
+  background-color: lightgray;
+}
+header {
+  text-align: center;
+}
+.logo {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+.ecard {
+  background-color: rgb(134, 133, 133);
+  border: 50px;
+}
+
+a {
+  color: #ff3300;
+  font-weight: bold;
+}
+
+.h1 {
+  color: black;
+  font-size: 21 px;
+}
+.h2 {
+  color: black;
+  font-size: 21 px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
+
+.left {
+  background-color: #fff;
+  border: 1px solid #fff;
+  padding: 20px;
+  margin-right: 20px;
+  height: auto;
+}
+
+h3 {
+  font-size: 10px;
+  /font-weight: bold;
+  margin-bottom: 1px;
+  line-height: 1;
+}
+
+h4 {
+  margin-top: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+#footer {
+  text-align: center;
+  display: block;
+  margin-top: 40px;
+}
+#sidebarAside {
+  flex: 0.25;
+  padding: 15px;
+  margin-right: 10px;
+  background: white;
+  max-height: fit-content;
+  line-height: 0.9;
+}
